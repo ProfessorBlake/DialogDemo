@@ -1,0 +1,33 @@
+{
+    "Dialogs": [
+        {
+			"ID": "Scene1_Character1_Intro",
+            "Message": "Hello friend!",
+            "Choices": [
+                {
+                    "Text": "Choice 1",
+                    "TargetDialog": "Scene1_Character2_Intro"
+                },
+                {
+                    "Text": "Choice 2",
+                    "TargetDialog": "Scene1_Character1_Bye"
+                }
+            ]
+        },
+        {
+			"ID": "Scene1_Character2_Intro",
+            "Message": "Hi!",
+            "Choices": [
+                {
+                    "Text": "Choice 1",
+                    "TargetDialog": "Scene1_Character1_Bye"
+                }
+            ]
+        },
+        {
+			"ID": "Scene1_Character1_Bye",
+            "Message": "Bye!",
+            "Choices": []
+        }
+    ]
+}
