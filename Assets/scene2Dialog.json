@@ -1,0 +1,21 @@
+{
+    "Dialogs": [
+        {
+			"ID": "Scene2_Intro",
+			"Name": "Person",
+            "Messages": [
+				"Welcome To Scene 1!"
+			],
+            "Choices": [
+                {
+                    "Text": "Goto ABC",
+                    "TargetDialog": "Scene1_Character1_Intro2"
+                },
+                {
+                    "Text": "Goto XYZ",
+                    "TargetDialog": "Scene1_Character1_Intro3"
+                }
+            ]
+        }
+    ]
+}

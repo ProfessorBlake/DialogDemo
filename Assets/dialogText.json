@@ -2,32 +2,69 @@
     "Dialogs": [
         {
 			"ID": "Scene1_Character1_Intro",
-            "Message": "Hello friend!",
+			"Name": "Citizen A",
+            "Messages": [
+				"Message 1",
+				"Message 2",
+				"Message 3"
+			],
             "Choices": [
                 {
-                    "Text": "Choice 1",
-                    "TargetDialog": "Scene1_Character2_Intro"
+                    "Text": "Goto ABC",
+                    "TargetDialog": "Scene1_Character1_Intro2"
                 },
                 {
-                    "Text": "Choice 2",
-                    "TargetDialog": "Scene1_Character1_Bye"
+                    "Text": "Goto XYZ",
+                    "TargetDialog": "Scene1_Character1_Intro3"
                 }
             ]
         },
-        {
-			"ID": "Scene1_Character2_Intro",
-            "Message": "Hi!",
+		{
+			"ID": "Scene1_Character1_Intro2",
+			"Name": "Citizin B",
+            "Messages": [
+				"Message A",
+				"Message B",
+				"Message C"
+			],
             "Choices": [
                 {
-                    "Text": "Choice 1",
-                    "TargetDialog": "Scene1_Character1_Bye"
+                    "Text": "Back to start",
+                    "TargetDialog": "Scene1_Character1_Intro"
+                },
+                {
+                    "Text": "Goto Exit",
+                    "TargetDialog": "Exit"
                 }
             ]
         },
-        {
-			"ID": "Scene1_Character1_Bye",
-            "Message": "Bye!",
-            "Choices": []
+		{
+			"ID": "Scene1_Character1_Intro3",
+			"Name": "Citizin C",
+            "Messages": [
+				"Message X",
+				"Message Y",
+				"Message Z"
+			],
+            "Choices": [
+				{
+                    "Text": "Next",
+                    "TargetDialog": "Exit"
+                }
+            ]
+        },
+		{
+			"ID": "Exit",
+			"Name": "Citizin A",
+            "Messages": [
+				"Bye!"
+			],
+            "Choices": [
+                {
+                    "Text": "Bye!",
+                    "TargetDialog": "GotoScene1"
+                }
+            ]
         }
     ]
 }

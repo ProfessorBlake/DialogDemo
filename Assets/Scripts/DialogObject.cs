@@ -4,6 +4,7 @@
 public class DialogObject
 {
 	public string ID;
-	public string Message;
+	public string Name;
+	public string[] Messages;
 	public List<DialogChoice> Choices;
 }

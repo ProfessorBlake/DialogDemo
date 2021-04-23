@@ -455,7 +455,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.4745098, g: 0.34990418, b: 0.19215688, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -609,10 +609,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651b36c26b6adc6459823553343f1350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogText: {fileID: 4900000, guid: a4405f6ef9226024e9659d497d5e2a5e, type: 3}
+  dialogText: {fileID: 4900000, guid: 3efb2f59f46bc7848bb57314fde268f2, type: 3}
   dialogList:
     Dialogs: []
-  startingDialogID: Scene1_Character1_Intro
+  startingDialogID: Scene2_Intro
   messageText: {fileID: 1443325047}
   nameText: {fileID: 2043132133}
   choice1: {fileID: 408113719}
